@@ -3,6 +3,7 @@
 pragma solidity >=0.8.0 <=0.9.0;
 
 contract EtherStaking {
+    
     struct StakersDetails {
         uint256 balance;
         uint256 Staketime;
